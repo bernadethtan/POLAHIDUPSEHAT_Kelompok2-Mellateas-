@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'ethnocentric';
+    src: url('Coolvetica Rg.otf');
+}
+
+body {
+    background-image: url('bgdaftarpustaka.png');
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 45px;
+    text-align: center;
+    z-index: 1;
+}
+
+/* kode css navigator */
+ul {
+    list-style: none;
+    background: linear-gradient(to right, #112738, #61788a);
+    padding: 0;
+    margin: 120px 0 0 0;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a {
+    padding: 10px 0;
+    text-align: center;
+}
+
+ul a:hover {
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+}
+
+/* kode css dropdown */
+ul li ul.dropdown {
+    background-color: orange;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/* kode css navigator */
+ul {
+    list-style: none;
+    background: linear-gradient(to right, #344e29, #41754c, #608f9d);
+    padding: 0px 0px;
+    margin: 120px 0px;
+    position: absolute;
+    width: 1280px;
+    height: 60px;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+ul a:hover {
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+}
+
+/* kode css dropdown */
+ul li ul.dropdown {
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/* scroll container */
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.scroll-container {
+    position: absolute;
+    margin-top: 200px;
+    width: 50%;
+    background-color: #5b9a90;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: -1;
+    border-radius: 40px;
+    font-family: 'ethnocentric';
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* 2 box */
+* {
+    box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+p{
+    text-indent: 30px;
+    text-align: justify;
+    font-size:  90%;
+    font-family: 'ethnocentric';
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 45px;
+    text-align: center;
+    z-index: 1;
+}

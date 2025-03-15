@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WEB SAS</title>
+    <link rel="stylesheet" href="ourprofile.css">
+</head>
+
+<body> <!-- header berbentuk image -->
+    <!-- header berbentuk image -->
+    <div class="header">
+        <img src="Header.png">
+    </div>
+    <!-- navigator bar dan dropdown -->
+    <div>
+        <ul class="navbar">
+            <li><a href="index.html"><img src="home.png"></a></li>
+            <li><a href="ourprofile.html"><img src="Our Profile.jpeg"></a></li>
+            <li>
+                <a href="pengertian.html"><img src="Mengenal Pola Hidup Sehat.jpeg"></a>
+                <ul class="dropdown">
+                    <li><a href="mengenai.html"><img src="Pengertian.jpeg"></a></li>
+                    <li><a href="standarphs.html"><img src="Standar Pola Hidup Sehat.jpeg"></a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="mengapapenting.html"><img src="Mengapa ini penting.jpeg"></a>
+                <ul class="dropdown">
+                    <li><a href="manfaatphs.html"><img src="Manfaat Pola Hidup Sehat.jpeg"></a></li>
+                    <li><a href="akibattdksehat.html"><img src="Akibat Gaya Hidup Tidak Sehat.jpeg"></a></li>
+                </ul>
+            </li>
+            <a href="ayoterapkan.html"><img src="Ayo, Terapkan!.jpeg"></a>
+            <li><a href="daftarpustaka.html"><img src="Daftar Pustaka.jpeg"></a></li>
+        </ul>
+    </div>
+
+    <ul class="profile-list">
+        <li class="profile-card1">
+            <img src="aya.jpeg" alt="Ayanaara">
+            <p class="name">Ayanaara Kemal Haro</p>
+            <p>IX-4/05</p>
+            <audio class="seasons" src="seasons.mpeg" controls></audio>
+        </li>
+        <li class="profile-card2">
+            <img src="josce.jpeg" alt="Josce">
+            <p class="name">Bernadeth Joscelyn Tan</p>
+            <p>IX-4/06</p>
+            <audio class="ordinary" src="Ariana Grande - ordinary things (JOSCE) .mp3" controls></audio>
+        </li>
+        <li class="profile-card3">
+            <img src="lana.jpeg" alt="Lana">
+            <p class="name">Brigitta Milana Wahyudi</p>
+            <p>IX-4/08</p>
+            <audio class="luther" src="luther.mpeg" controls></audio>
+        </li>
+        <li class="profile-card4">
+            <img src="keiko.jpeg" alt="Keiko">
+            <p class="name">Eugenia Keiko Wijaya</p>
+            <p>IX-4/14</p>
+            <audio class="mylove" src="lay my love on u.mpeg" controls></audio>
+        </li>
+        <li class="profile-card5">
+            <img src="diandra.jpeg" alt="Diandra">
+            <p class="name">Laurentia Diandra Harsono</p>
+            <p>IX-4/22</p>
+            <audio class="blue" src="blue.mp3" controls></audio>
+        </li>
+        <li class="profile-card6">
+            <img src="juean.jpeg" alt="Juean">
+            <p class="name">Rafaella Gratia Juean</p>
+            <p>IX-4/27</p>
+            <audio class="annie" src="annie. - Wave to Earth.mp3" controls></audio>
+        </li>
+    </ul>
+    <ul class="bio">
+        <h2 class="headingdua"><mark>~Pembagian Tugas~</mark></h2>
+        <div class="container">
+            <ul class="nama-list">
+                <li onclick="setActive(this)">Ayanaara Kemal Haro</li>
+                <li onclick="setActive(this)">Bernadeth Joscelyn Tan</li>
+                <li onclick="setActive(this)">Brigitta Milana Wahyudi</li>
+                <li onclick="setActive(this)">Eugenia Keiko Wijaya</li>
+                <li onclick="setActive(this)">Laurentia Diandra Harsono</li>
+                <li onclick="setActive(this)">Rafaella Gratia Juean</li>
+            </ul>
+
+            <div id="biografi-container" class="biografi">
+                <h2 id="biografi-nama"></h2>
+                <p id="biografi-text"></p>
+            </div>
+        </div>
+    </ul>
+
+    <script src="script.js"></script>
+    <!-- footer -->
+    <div class="footer"> <img src="Footer ILP.png" alt="Footer">

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WEB SAS</title>
+    <link rel="stylesheet" href="mengapapenting.css">
+</head>
+
+<body>
+    <!-- header berbentuk image -->
+    <div class="header">
+        <img src="Header.png">
+    </div>
+
+    <!-- navigator bar dan dropdown -->
+    <div>
+        <ul>
+            <li><a href="index.html"><img src="home.png"></a></li>
+            <li><a href="ourprofile.html"><img src="Our Profile.jpeg"></a></li>
+            <li>
+                <a href="pengertian.html"><img src="Mengenal Pola Hidup Sehat.jpeg"></a>
+                <ul class="dropdown">
+                    <li><a href="mengenai.html"><img src="Pengertian.jpeg"></a></li>
+                    <li><a href="standarphs.html"><img src="Standar Pola Hidup Sehat.jpeg"></a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="mengapapenting.html"><img src="Mengapa ini penting.jpeg"></a>
+                <ul class="dropdown">
+                    <li><a href="manfaatphs.html"><img src="Manfaat Pola Hidup Sehat.jpeg"></a></li>
+                    <li><a href="akibattdksehat.html"><img src="Akibat Gaya Hidup Tidak Sehat.jpeg"></a></li>
+                </ul>
+            </li>
+            <a href="ayoterapkan.html"><img src="Ayo, Terapkan!.jpeg"></a>
+            <li><a href="daftarpustaka.html"><img src="Daftar Pustaka.jpeg"></a></li>
+        </ul>
+    </div>
+
+    <!-- Kontainer scroll -->
+    <div class="scroll-container">
+        <div class="column">
+            <h2>A. Manfaat Pola Hidup Sehat 👍🏻</h2>
+            <img src="polahidupsehat.jpg" width="200" height="auto"><br><br>
+            <button class="btn" onclick="goToPage('manfaatphs.html')">Lihat Manfaat</button>
+        </div>
+
+        <div class="column">
+            <h2>B. Akibat Pola Hidup Tidak Sehat 👎🏻</h2>
+            <img src="polahiduptidaksehat.jpg" width="200" height="auto"><br><br>
+            <button class="btn" onclick="goToPage('akibattdksehat.html')">Lihat Akibat</button>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <img src="Footer ILP.png">
+    </div>
+
+    <!-- JavaScript untuk navigasi tombol -->
+    <script>
+        function goToPage(page) {
+            window.location.href = page;
+        }
+    </script>
+
+</body>
+</html>
